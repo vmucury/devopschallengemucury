@@ -1,1 +1,7 @@
-# devopschallengemucury
+# devopschallenge Viniciu Mucury
+#
+O arquvi Dockerfile serve para dar build tanto em api como em web do app
+As imagens estão em nos repositórios:
+  https://hub.docker.com/vmucury/api
+  https://hub.docker.com/vmucury/web
+  
