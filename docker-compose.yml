@@ -1,0 +1,16 @@
+version: '3'
+services:
+  web:
+    image: dcweb:latest
+    ports:
+      - "80:80"
+    environment:
+      - PORT=80
+      - API_HOST=10.98.1.36:81
+  api:
+    image: dcapi:latest
+    ports:
+      - "81:81"
+    environment:
+      - PORT=81
+      - DB=postgres://selva:1234@10.98.1.36:5432/database
